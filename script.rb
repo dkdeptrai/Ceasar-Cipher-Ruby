@@ -1,4 +1,5 @@
 require 'pry-byebug'
+
 def ceasar_cipher(string, shift)
   chars = string.split("")
   result = chars.map do |char|
