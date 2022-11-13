@@ -15,5 +15,3 @@ def ceasar_cipher(string, shift)
   result.join
 end
 
-result = ceasar_cipher("What a string!", -55)
-puts result
